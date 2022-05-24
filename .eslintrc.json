@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "standard",
+    "prettier",
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true,
+    "jest": true
+  },
+  "reportUnusedDisableDirectives": true,
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-alert": "error"
+  },
+  "globals": {
+    "sidepanel": true
+  }
+}

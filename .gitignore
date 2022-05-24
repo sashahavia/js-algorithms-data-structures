@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.vscode
+.idea
+
+# eslint
+eslint.json
+
+# Caching
+.awcache/
