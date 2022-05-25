@@ -1,4 +1,6 @@
 {
+  "rootDir": "./",
+  "modulePaths": ["<rootDir>/src/"],
   "bail": 1,
   "verbose": true,
   "transform": {

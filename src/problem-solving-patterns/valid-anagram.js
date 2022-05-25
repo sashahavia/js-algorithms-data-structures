@@ -33,8 +33,6 @@ export function validAnagram(str1, str2) {
   return true;
 }
 
-// validAnagram("", ""); // true
-// validAnagram('aaz', 'zza'); // false
 // validAnagram('anagram', 'nagaram'); // true
 // validAnagram('rat', 'car'); // false
 // validAnagram('awesome', 'awesom'); // false
