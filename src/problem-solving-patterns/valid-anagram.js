@@ -32,9 +32,3 @@ export function validAnagram(str1, str2) {
   }
   return true;
 }
-
-// validAnagram('anagram', 'nagaram'); // true
-// validAnagram('rat', 'car'); // false
-// validAnagram('awesome', 'awesom'); // false
-// validAnagram('qwerty', 'qeywrt'); // true
-// validAnagram('texttwisttime', 'timetwisttext'); // true
