@@ -12,6 +12,7 @@
     "jest-cli": "^28.1.0"
   },
   "scripts": {
-    "test": "jest --projects ./jest.config.json --watch"
+    "test": "jest src/** --projects ./jest.config.json --coverage",
+    "watch:test": "jest --projects ./jest.config.json --watch"
   }
 }

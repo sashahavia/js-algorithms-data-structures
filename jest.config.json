@@ -4,6 +4,6 @@
   "bail": 1,
   "verbose": true,
   "transform": {
-    "\\.[jt]sx?$": "babel-jest"
+    "^.+\\.(js|jsx)$": "babel-jest"
   }
 }
