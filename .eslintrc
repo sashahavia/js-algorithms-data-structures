@@ -1,7 +1,7 @@
 {
   "extends": [
     "standard",
-    "prettier",
+    "prettier"
   ],
   "env": {
     "browser": true,
@@ -14,8 +14,5 @@
     "no-console": "warn",
     "no-debugger": "error",
     "no-alert": "error"
-  },
-  "globals": {
-    "sidepanel": true
   }
 }
