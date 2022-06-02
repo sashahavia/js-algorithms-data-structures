@@ -1,4 +1,4 @@
-import { sameFrequency } from './same-frequency';
+import {sameFrequency} from './same-frequency';
 
 describe('sameFrequency', () => {
   it('should return true sameFrequency(182, 821)', () => {
