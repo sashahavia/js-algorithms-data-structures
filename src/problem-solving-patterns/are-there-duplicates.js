@@ -20,3 +20,8 @@ export function areThereDuplicates(...args) {
 
   return false;
 }
+
+// A one line solution
+export function areThereDuplicatesV2() {
+  return new Set(arguments).size !== arguments.length;
+}
