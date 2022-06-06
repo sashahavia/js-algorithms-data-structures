@@ -34,5 +34,7 @@ export function minSubArrayLen(nums, sum) {
       break; 
     } 
   } 
+
+  return minLen === Infinity ? 0 : minLen;
 }
  
