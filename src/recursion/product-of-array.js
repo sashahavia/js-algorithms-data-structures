@@ -11,4 +11,4 @@ export const productOfArray = (array) => {
   }
 
   return array[0] * productOfArray(array.slice(1));
-}
+};
