@@ -1,4 +1,4 @@
-import {productOfArray} from './product-of-array';
+import {productOfArray} from './product_of_array';
 
 describe('productOfArray', () => {
   it('should return 6 for array [1, 2, 3]', () => {

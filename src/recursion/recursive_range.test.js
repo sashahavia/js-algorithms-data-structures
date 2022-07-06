@@ -1,4 +1,4 @@
-import {recursiveRange} from './recursive-range';
+import {recursiveRange} from './recursive_range';
 
 describe('recursiveRange', () => {
   it('should return 21 for number 6', () => {
