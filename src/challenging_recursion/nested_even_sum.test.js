@@ -1,4 +1,4 @@
-import { nestedEvenSum } from './nested-even-sum';
+import { nestedEvenSum } from './nested_even_sum';
 
 const obj1 = {
   outer: 2,

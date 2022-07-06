@@ -1,4 +1,4 @@
-import {stringifyNumbers} from './stringify-numbers';
+import {stringifyNumbers} from './stringify_numbers';
 
 describe('stringifyNumbers', () => {
   const objectInput = {

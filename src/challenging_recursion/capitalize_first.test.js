@@ -1,4 +1,4 @@
-import {capitalizeFirst} from './capitalize-first';
+import {capitalizeFirst} from './capitalize_first';
 
 describe('capitalizeFirst', () => {
   it("should return ['Car', 'Taco', 'Banana'] for array ['car', 'taco', 'banana']", () => {

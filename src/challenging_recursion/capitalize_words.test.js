@@ -1,4 +1,4 @@
-import {capitalizeWords} from './capitalize-words';
+import {capitalizeWords} from './capitalize_words';
 
 describe('capitalizeWords', () => {
   it("should return ['I', 'AM', 'LEARNING', 'RECURSION'] for array ['i', 'am', 'learning', 'recursion']", () => {

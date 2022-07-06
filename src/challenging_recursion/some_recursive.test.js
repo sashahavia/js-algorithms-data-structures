@@ -1,4 +1,4 @@
-import {someRecursive} from './some-recursive';
+import {someRecursive} from './some_recursive';
 
 describe('someRecursive', () => {
   const isOdd = val => val % 2 !== 0;

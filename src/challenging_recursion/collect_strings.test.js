@@ -1,4 +1,4 @@
-import {collectStrings} from './collect-strings';
+import {collectStrings} from './collect_strings';
 
 describe('collectStrings', () => {
   const obj = {

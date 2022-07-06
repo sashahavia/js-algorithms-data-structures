@@ -1,4 +1,4 @@
-import { isPalindrome } from './is-palindrome';
+import { isPalindrome } from './is_palindrome';
 
 describe('isPalindrome', () => {
   it('should return false for string awesome', () => {
