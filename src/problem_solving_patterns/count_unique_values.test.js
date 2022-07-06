@@ -1,4 +1,4 @@
-import {countUniqueValues} from './count-unique-values';
+import {countUniqueValues} from './count_unique_values';
 
 describe('countUniqueValues', () => {
   it('should return 2 for array [1, 1, 1, 1, 1, 2]', () => {

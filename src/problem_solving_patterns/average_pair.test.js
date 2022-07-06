@@ -1,4 +1,4 @@
-import {averagePair} from './average-pair';
+import {averagePair} from './average_pair';
 
 describe('averagePair', () => {
   it('should return true when the values are passed [1, 2, 3], 2.5', () => {

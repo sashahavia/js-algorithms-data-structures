@@ -1,4 +1,4 @@
-import {minSubArrayLen} from './min-subarray-len';
+import {minSubArrayLen} from './min_subarray_len';
 
 describe('minSubArrayLen', () => {
   it('should return 2 for the array [2, 3, 1, 2, 4, 3] and number 7', () => {

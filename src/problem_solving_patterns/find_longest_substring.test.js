@@ -1,4 +1,4 @@
-import {findLongestSubstring} from './find-longest-substring';
+import {findLongestSubstring} from './find_longest_substring';
 
 describe('findLongestSubstring', () => {
   it('should return 0 when string is empty', () => {

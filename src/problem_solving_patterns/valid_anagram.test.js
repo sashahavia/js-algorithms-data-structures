@@ -1,4 +1,4 @@
-import {validAnagram} from './valid-anagram';
+import {validAnagram} from './valid_anagram';
 
 describe('validAnagram', () => {
   it('should return true when both strings are empty', () => {

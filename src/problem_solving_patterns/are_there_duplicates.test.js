@@ -1,4 +1,4 @@
-import {areThereDuplicates, areThereDuplicatesV2} from './are-there-duplicates';
+import {areThereDuplicates, areThereDuplicatesV2} from './are_there_duplicates';
 
 describe('Are there duplicates', () => {
   describe('areThereDuplicates', () => {

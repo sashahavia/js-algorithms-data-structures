@@ -1,4 +1,4 @@
-import {isSubsequence} from './is-subsequence';
+import {isSubsequence} from './is_subsequence';
 
 describe('isSubsequence', () => {
   it('should return true for isSubsequence("hello", "hello world")', () => {

@@ -1,4 +1,4 @@
-import {maxSubarraySum} from './max-subarray-sum';
+import {maxSubarraySum} from './max_subarray_sum';
 
 describe('maxSubarraySum', () => {
   it('should return 700 for the following array [100, 200, 300, 400] and length of 2', () => {
