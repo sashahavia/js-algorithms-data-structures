@@ -38,22 +38,21 @@ export const twoSum = (nums, target) => {
     }
   }
 
-  // let sums = {};
+  return result;
+};
 
-  // for (let i = 0; i < nums.length - 1; i++) {
-  //   const sum = nums[i] + nums[i + 1];
-  //   console.log('sum', sum)
-  //   console.log('i', i)
+export const twoSumOptimal = (nums, target) => {
+  let numObj = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    let complement = target - nums[i];
+    if (numObj[complement] !== undefined) {
+      return [numObj[complement], i]
+    }
     
 
-  //   sums[sum] = [i, i+1];
-  // }
+    numObj[nums[i]] = i;
+  }
 
-  // console.log('sums', sums)
-
-  // if (sums[target]) {
-  //   return sums[target];
-  // }
-
-  return result;
+  return [];
 };
